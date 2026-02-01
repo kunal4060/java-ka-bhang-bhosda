@@ -11,7 +11,7 @@ public class OOPS{
 
         car1.setcarname("Audi");
         car1.setColor("Black");
-        System.out.println(car1.carname + " " + car1.color);
+        System.out.println(car1.getCarname() + " " + car1.getColor());
 
     }
     
@@ -46,8 +46,8 @@ public class OOPS{
 // }
 class Car 
 {
-     String carname ;
-     String color;
+    private String carname ;
+    private String color;
     void setcarname(String newcarname)
     {
         this.carname = newcarname;
@@ -56,6 +56,14 @@ class Car
     void setColor(String newcolor)
     {
         this.color = newcolor;
+    }
+    String getCarname()
+    {
+        return this.carname;
+    }
+    String getColor()
+    {
+        return this.color;
     }
 
 
