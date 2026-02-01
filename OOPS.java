@@ -8,25 +8,26 @@ public class OOPS{
         // pentonic.colour = "blue"; // direct access
         // System.out.println(pentonic.colour);
         Car car1 = new Car();
-        car1.setCarname("Toyota");
-        car1.setColor("Red");  
+
+        car1.setcarname("Audi");
+        car1.setColor("Black");
         System.out.println(car1.carname + " " + car1.color);
 
     }
     
 }
 
-class Pen{
-    String colour;
-    float tip;
-    void setcolour(String newcolour){
-        this.colour = newcolour;
-    }
-    void settip(float newtip){
-        tip = newtip;
-    }
+// class Pen{
+//     String colour;
+//     float tip;
+//     void setcolour(String newcolour){
+//         this.colour = newcolour;
+//     }
+//     void settip(float newtip){
+//         tip = newtip;
+//     }
     
-}
+// }
 
 // class student{
 //     String name;
@@ -45,17 +46,17 @@ class Pen{
 // }
 class Car 
 {
-    String carname;
-    String color;
-    void setCarname(String carname)
+     String carname ;
+     String color;
+    void setcarname(String newcarname)
     {
-        this.carname = carname;
-    }
-    void setColor(String color)
-    {
-        this.color = color;
-    }
+        this.carname = newcarname;
 
+    }
+    void setColor(String newcolor)
+    {
+        this.color = newcolor;
+    }
 
 
     
