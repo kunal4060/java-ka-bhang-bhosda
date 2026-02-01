@@ -1,0 +1,62 @@
+public class OOPS{
+    public static void main(String arg[]){
+        // Pen pentonic = new Pen();
+        // pentonic.setcolour("pink");// indirect access
+        // pentonic.settip(0.5f);// indirect access
+        // System.out.println(pentonic.colour);// direct access
+        // System.out.println(pentonic.tip);// direct access
+        // pentonic.colour = "blue"; // direct access
+        // System.out.println(pentonic.colour);
+        Car car1 = new Car();
+        car1.setCarname("Toyota");
+        car1.setColor("Red");  
+        System.out.println(car1.carname + " " + car1.color);
+
+    }
+    
+}
+
+class Pen{
+    String colour;
+    float tip;
+    void setcolour(String newcolour){
+        this.colour = newcolour;
+    }
+    void settip(float newtip){
+        tip = newtip;
+    }
+    
+}
+
+// class student{
+//     String name;
+//     int age;
+//     int rollno;
+
+//     void setname(String newname){
+//         name = newname;
+//     }
+//     void setage(int newage){
+//         age = newage;
+//     }
+//     void setrollno(int newrollno){
+//         rollno = newrollno;
+//     }
+// }
+class Car 
+{
+    String carname;
+    String color;
+    void setCarname(String carname)
+    {
+        this.carname = carname;
+    }
+    void setColor(String color)
+    {
+        this.color = color;
+    }
+
+
+
+    
+}
