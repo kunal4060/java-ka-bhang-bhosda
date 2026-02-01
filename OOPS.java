@@ -8,15 +8,22 @@ public class OOPS{
         // pentonic.colour = "blue"; // direct access
         // System.out.println(pentonic.colour);
         Car car1 = new Car();
+<<<<<<< HEAD
 
         car1.setcarname("Audi");
         car1.setColor("Black");
         System.out.println(car1.getCarname() + " " + car1.getColor());
+=======
+        car1.setCarname("Toyota");
+        car1.setColor("Red");  
+        System.out.println(car1.carname + " " + car1.color);
+>>>>>>> 86bb6d642c5eecc90ae069babdb5820fbd773b5f
 
     }
     
 }
 
+<<<<<<< HEAD
 // class Pen{
 //     String colour;
 //     float tip;
@@ -28,6 +35,19 @@ public class OOPS{
 //     }
     
 // }
+=======
+class Pen{
+    String colour;
+    float tip;
+    void setcolour(String newcolour){
+        this.colour = newcolour;
+    }
+    void settip(float newtip){
+        tip = newtip;
+    }
+    
+}
+>>>>>>> 86bb6d642c5eecc90ae069babdb5820fbd773b5f
 
 // class student{
 //     String name;
@@ -46,6 +66,7 @@ public class OOPS{
 // }
 class Car 
 {
+<<<<<<< HEAD
     private String carname ;
     private String color;
     void setcarname(String newcarname)
@@ -65,6 +86,19 @@ class Car
     {
         return this.color;
     }
+=======
+    String carname;
+    String color;
+    void setCarname(String carname)
+    {
+        this.carname = carname;
+    }
+    void setColor(String color)
+    {
+        this.color = color;
+    }
+
+>>>>>>> 86bb6d642c5eecc90ae069babdb5820fbd773b5f
 
 
     
